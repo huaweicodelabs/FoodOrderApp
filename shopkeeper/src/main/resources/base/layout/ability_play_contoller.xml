@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+    <Text
+        ohos:id="$+id:txt_title"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:text="$string:food_menu_single"
+        ohos:background_element="$graphic:background_btn"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:dimens_15"
+        ohos:text_weight="1000"
+        ohos:text_alignment="center"
+        ohos:horizontal_center="true"
+        />
+    <DirectionalLayout
+        ohos:height="match_parent"
+        ohos:width="match_content"
+        ohos:orientation="vertical"
+        ohos:horizontal_center="true"
+        ohos:below="$id:txt_title"
+        ohos:top_margin="$float:dimens_30">
+
+        <Button
+            ohos:id="$+id:call_button"
+            ohos:text="$string:connect_table"
+            ohos:width="$float:dimens_160"
+            ohos:height="$float:dimens_35"
+            ohos:text_weight="1000"
+            ohos:text_color="$color:white"
+            ohos:selection_color="$color:grey"
+            ohos:text_size="$float:dimens_12fp"
+            ohos:top_margin="$float:dimens_10"
+            ohos:background_element="$graphic:roundedcorner_btn"
+            />
+
+        <Button
+            ohos:id="$+id:call_button1"
+            ohos:text="$string:non_vegMenu"
+            ohos:width="$float:dimens_160"
+            ohos:height="$float:dimens_35"
+            ohos:text_weight="1000"
+            ohos:text_color="$color:white"
+            ohos:selection_color="$color:grey"
+            ohos:text_size="$float:dimens_12fp"
+            ohos:bottom_margin="$float:dimens_5"
+            ohos:top_margin="$float:dimens_10"
+            ohos:visibility="hide"
+            ohos:background_element="$graphic:roundedcorner_btn"
+            />
+        <Button
+            ohos:id="$+id:close_app"
+            ohos:below="$id:call_button"
+            ohos:text="$string:close_app"
+            ohos:width="$float:dimens_160"
+            ohos:height="$float:dimens_35"
+            ohos:text_font="serif"
+            ohos:text_weight="1000"
+            ohos:text_color="$color:white"
+            ohos:selection_color="$color:grey"
+            ohos:text_size="$float:dimens_12fp"
+            ohos:top_margin="$float:dimens_10"
+            ohos:background_element="$graphic:roundedcorner_btn"
+            />
+
+
+    </DirectionalLayout>
+
+</DependentLayout>

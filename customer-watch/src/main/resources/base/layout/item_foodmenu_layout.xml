@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="75vp"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_box"
+    ohos:left_margin="30vp"
+    ohos:orientation="vertical"
+    ohos:padding="5vp"
+    ohos:right_margin="20vp"
+    ohos:top_margin="10vp">
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center">
+
+        <Image
+            ohos:id="$+id:image_food"
+            ohos:height="50vp"
+            ohos:width="50vp"
+            ohos:align_parent_left="true"
+            ohos:top_margin="10vp"
+            ohos:visibility="visible"
+            />
+
+        <Text
+            ohos:id="$+id:item_title"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:horizontal_center="true"
+            ohos:left_margin="10vp"
+            ohos:padding="1vp"
+            ohos:right_of="$id:image_food"
+            ohos:text="Item1"
+            ohos:text_color="$color:black"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"
+            ohos:top_margin="5vp"
+            />
+
+        <Text
+            ohos:id="$+id:item_prize"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:item_title"
+            ohos:horizontal_center="true"
+            ohos:left_margin="10vp"
+            ohos:padding="1vp"
+            ohos:right_of="$id:image_food"
+            ohos:text_color="$color:black"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"
+            ohos:top_margin="5vp"
+            />
+        <Text
+            ohos:id="$+id:item_minus"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:item_title"
+            ohos:horizontal_center="true"
+            ohos:left_margin="20vp"
+            ohos:padding="1vp"
+            ohos:right_of="$id:item_prize"
+            ohos:text="-"
+            ohos:text_color="$color:red"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"
+            ohos:top_margin="5vp"
+            />
+
+        <Text
+            ohos:id="$+id:item_quantity"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:item_title"
+            ohos:horizontal_center="true"
+
+            ohos:left_margin="5vp"
+            ohos:right_of="$id:item_minus"
+            ohos:text="0"
+            ohos:text_color="$color:red"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"
+            ohos:top_margin="5vp"
+            />
+
+        <Text
+            ohos:id="$+id:item_plus"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:below="$id:item_title"
+            ohos:horizontal_center="true"
+            ohos:left_margin="5vp"
+            ohos:padding="1vp"
+            ohos:right_of="$id:item_quantity"
+            ohos:text="+"
+            ohos:text_color="$color:red"
+            ohos:text_size="15fp"
+            ohos:text_weight="600"
+            ohos:top_margin="5vp"
+            />
+    </DependentLayout>
+
+</DirectionalLayout>

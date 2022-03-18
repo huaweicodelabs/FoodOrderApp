@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text_heading"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_btn"
+        ohos:horizontal_center="true"
+        ohos:text="$string:bill_details"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:dimens_15fp"
+        ohos:text_weight="1000"
+        />
+
+    <ScrollView
+        ohos:below="$id:text_heading"
+        ohos:height="match_parent"
+        ohos:width="match_parent">
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:alignment="center"
+            ohos:orientation="vertical">
+
+            <Text
+                ohos:id="$+id:txt_header"
+                ohos:height="match_content"
+                ohos:width="match_content"
+                ohos:below="$id:txt_title"
+                ohos:horizontal_center="true"
+                ohos:text="$string:payment_received_table"
+                ohos:text_size="$float:dimens_18fp"
+                ohos:text_weight="600"
+                ohos:top_margin="$float:dimens_20fp"/>
+
+            <DependentLayout
+                ohos:height="match_parent"
+                ohos:width="match_content"
+                ohos:background_element="$graphic:background_box"
+                ohos:top_margin="$float:dimens_20fp">
+
+                <ListContainer
+                    ohos:id="$+id:list_container_items"
+                    ohos:height="match_content"
+                    ohos:width="match_parent"
+                    ohos:layout_alignment="horizontal_center"
+                    />
+            </DependentLayout>
+
+            <DependentLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                ohos:top_margin="$float:dimens_5">
+
+                <Text
+                    ohos:id="$+id:tax"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_left="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:multiple_lines="true"
+                    ohos:text="$string:tax"
+                    ohos:text_size="$float:dimens_15"
+                    ohos:vertical_center="true"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:center_in_parent="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:taxpercentage"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_15fp"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:taxvalue"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_15fp"
+                    ohos:vertical_center="true"/>
+            </DependentLayout>
+
+            <DependentLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                >
+
+                <Text
+                    ohos:id="$+id:gst"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_left="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:multiple_lines="true"
+                    ohos:text="$string:gst"
+                    ohos:text_size="$float:dimens_15fp"
+                    ohos:vertical_center="true"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:center_in_parent="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:gstpercentage"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_15"/>
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:gstvalue"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_15fp"
+                    ohos:vertical_center="true"/>
+            </DependentLayout>
+
+            <DependentLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                >
+
+                <Text
+                    ohos:id="$+id:Total"
+                    ohos:height="match_content"
+                    ohos:width="$float:dimens_100"
+                    ohos:align_parent_left="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:multiple_lines="true"
+                    ohos:text="$string:delivery_charges"
+                    ohos:text_size="$float:dimens_15fp"
+                    ohos:vertical_center="true"/>
+
+
+                <Text
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:deliverycharge"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_15fp"
+                    ohos:vertical_center="true"/>
+            </DependentLayout>
+
+            <Text
+                ohos:height="$float:dimens_2"
+                ohos:width="match_parent"
+                ohos:background_element="$color:btnBg">
+
+            </Text>
+
+            <DependentLayout
+                ohos:height="match_parent"
+                ohos:width="match_parent"
+                ohos:orientation="horizontal"
+                >
+
+                <Text
+                    ohos:id="$+id:total"
+                    ohos:height="match_content"
+                    ohos:width="match_content"
+                    ohos:align_parent_left="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:multiple_lines="true"
+                    ohos:text="$string:total"
+                    ohos:text_color="$color:btnBg"
+                    ohos:text_size="$float:dimens_18fp"
+                    ohos:text_weight="1000"
+                    ohos:vertical_center="true"/>
+
+                <Text
+                    ohos:id="$+id:totalvalue"
+                    ohos:height="$float:dimens_40"
+                    ohos:width="match_content"
+                    ohos:align_parent_right="true"
+                    ohos:margin="$float:dimens_8"
+                    ohos:text="$string:totalvalue"
+                    ohos:text_alignment="center"
+                    ohos:text_size="$float:dimens_18fp"
+                    ohos:vertical_center="true"/>
+            </DependentLayout>
+        </DirectionalLayout>
+    </ScrollView>
+</DirectionalLayout>

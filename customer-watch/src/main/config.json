@@ -1,0 +1,96 @@
+{
+  "app": {
+    "bundleName": "com.huawei.posfoodordersapp",
+    "vendor": "huawei",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    },
+    "type": "normal"
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.huawei.posfoodordersapp",
+    "name": "com.huawei.posfoodordersapp.MyApplication",
+    "mainAbility": "com.huawei.posfoodordersapp.MainAbility",
+    "deviceType": [
+      "wearable",
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "customer-watch",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home",
+              "action.foodorder.slice",
+              "action.userdetails.slice",
+              "action.foodmenuitem.slice",
+              "action.orderconfirmationwithtier.slice",
+              "action.foodpricedetails.slice",
+              "action.payment.slice"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.huawei.posfoodordersapp.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:customer_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "backgroundModes": [
+          "dataTransfer"
+        ],
+        "name": "com.huawei.posfoodordersapp.service.DeviceService",
+        "icon": "$media:icon",
+        "description": "",
+        "type": "service",
+        "visible": true
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DEVICE_STATE_CHANGE"
+      },
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO"
+      },
+      {
+        "name": "ohos.permission.GET_BUNDLE_INFO"
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA"
+      },
+      {
+        "name": "ohos.permission.MEDIA_LOCATION"
+      },
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.GET_WIFI_INFO"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      }
+    ]
+  }
+}

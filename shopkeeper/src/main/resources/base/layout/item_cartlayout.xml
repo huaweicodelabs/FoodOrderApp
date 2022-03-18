@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:background_element="$graphic:background_box"
+    ohos:left_margin="$float:dimens_5"
+    ohos:orientation="vertical"
+    ohos:padding="$float:dimens_2"
+    ohos:right_margin="$float:dimens_5"
+    ohos:top_margin="$float:dimens_3">
+
+    <DependentLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center">
+
+        <Image
+            ohos:id="$+id:item_image"
+            ohos:height="$float:dimens_90"
+            ohos:width="$float:dimens_80"
+            ohos:align_parent_left="true"
+            ohos:image_src="$media:food"
+            ohos:top_margin="$float:dimens_5"
+            ohos:visibility="visible"
+            />
+
+        <Text
+            ohos:id="$+id:item_foodname"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:horizontal_center="true"
+            ohos:left_margin="10vp"
+            ohos:padding="1vp"
+            ohos:right_of="$id:item_image"
+            ohos:text="$string:item_one"
+            ohos:text_color="$color:black"
+            ohos:text_size="$float:dimens_15"
+            ohos:text_weight="300"
+            ohos:top_margin="$float:dimens_15"
+            />
+        <Text
+            ohos:id="$+id:item_prize"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:horizontal_center="true"
+            ohos:left_margin="$float:dimens_10"
+            ohos:padding="$float:dimens_2"
+            ohos:right_of="$id:item_image"
+            ohos:below="$id:item_foodname"
+            ohos:text="$string:rupee_200"
+            ohos:text_color="$color:black"
+            ohos:text_size="$float:dimens_15"
+            ohos:text_weight="300"
+            ohos:top_margin="$float:dimens_5"
+            />
+
+    </DependentLayout>
+
+</DirectionalLayout>

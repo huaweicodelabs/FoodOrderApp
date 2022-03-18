@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:txt_title"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:text="$string:shopKeeper_app"
+        ohos:background_element="$graphic:background_btn"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:dimens_18fp"
+        ohos:text_weight="1000"
+        ohos:text_alignment="center"
+        ohos:horizontal_center="true"
+        />
+    <Text
+        ohos:id="$+id:txt_header"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:top_margin="$float:dimens_10"
+        ohos:below="$id:txt_title"
+        ohos:text_size="$float:dimens_15fp"
+        ohos:text_weight="600"
+        ohos:left_margin="$float:dimens_35"
+        ohos:horizontal_center="true"
+        ohos:text="$string:paired_devices"/>
+
+    <ListContainer
+        ohos:id="$+id:online_device_list"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:layout_alignment="horizontal_center"
+        ohos:below="$id:txt_header"
+        ohos:margin="$float:dimens_10"/>
+
+</DependentLayout>

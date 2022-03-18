@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:left_margin="$float:dimens_5"
+    ohos:right_margin="$float:dimens_5"
+    ohos:top_margin="$float:dimens_5"
+    ohos:bottom_margin="$float:dimens_5"
+    ohos:alignment="center"
+    ohos:background_element="$graphic:background_box"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:device_name"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:padding="$float:dimens_5"
+        ohos:text_color="$color:btnBg"
+        ohos:text_size="$float:dimens_16fp"
+        ohos:weight="1000"
+        ohos:layout_alignment="center"/>
+</DirectionalLayout>

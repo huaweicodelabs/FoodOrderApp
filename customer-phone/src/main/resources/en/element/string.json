@@ -1,0 +1,71 @@
+{
+  "string": [
+    {
+      "name": "customer_MainAbility",
+      "value": "Customer App"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "userdetails",
+      "value": "Customer Details"
+    },
+    {
+      "name": "foodmenus",
+      "value": "Food Menu"
+    },
+    {
+      "name": "order_now",
+      "value": "ORDER NOW"
+    },
+    {
+      "name": "food_items",
+      "value": "Your Food Items"
+    },
+    {
+      "name": "confirm",
+      "value": "CONFIRM"
+    },
+    {
+      "name": "order_confirm",
+      "value": "Order Confirmation"
+
+    },
+    {
+      "name": "waiting_time",
+      "value": "Your order has been accepted... Please wait for 20 mins..."
+    },
+    {
+      "name": "item_one",
+      "value": "Item1"
+    },{
+      "name": "rupee_twoHundred",
+      "value": "₹200"
+    },
+    {
+      "name": "minus",
+      "value": "-"
+    },{
+      "name": "zero",
+      "value": "0"
+    },
+    {
+      "name": "plus",
+      "value": "+"
+    },
+    {
+      "name": "add",
+      "value": "Add"
+    },
+    {
+      "name": "custom_toast",
+      "value": "This is a ToastDialog for the customized component"
+    }
+  ]
+}

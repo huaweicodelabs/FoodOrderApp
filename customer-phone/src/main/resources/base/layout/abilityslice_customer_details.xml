@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+
+    <DependentLayout
+        ohos:id="$+id:dep_welcome"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:btnBg"
+        ohos:visibility="visible">
+
+        <com.airbnb.lottie.LottieAnimationView
+            ohos:id="$+id:animationView_Splash"
+            ohos:width="$float:dimens_200"
+            ohos:height="$float:dimens_200"
+            ohos:horizontal_center="true"
+            ohos:above="$id:text_welcome"
+            />
+
+
+        <Text
+            ohos:id="$+id:text_welcome"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:center_in_parent="true"
+            ohos:multiple_lines="true"
+            ohos:text="$string:welcome"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="$float:dimens_30fp"
+            ohos:text_weight="1000"/>
+
+        <com.andexert.library.RippleView
+            ohos:id="$+id:ripple_continue"
+            ohos:height="$float:dimens_50"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:rv_color="$color:btnBg"
+            >
+
+            <Button
+                ohos:id="$+id:btn_continue"
+                ohos:height="$float:dimens_50"
+                ohos:width="match_parent"
+                ohos:background_element="$color:white"
+                ohos:text="$string:next"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:btnBg"
+                ohos:text_size="$float:dimens_15"
+                ohos:text_weight="1000"/>
+        </com.andexert.library.RippleView>
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:di_userdetails"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:white"
+        ohos:orientation="vertical"
+        ohos:visibility="hide">
+
+        <DirectionalLayout
+            ohos:height="$float:dimens_45"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:background_element="$color:btnBg">
+
+            <Text
+                ohos:id="$+id:text_userdetails"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:horizontal_center="true"
+                ohos:layout_alignment="center"
+                ohos:text="$string:userdetails"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:white"
+                ohos:text_size="$float:dimens_20"
+                ohos:text_weight="1000"
+                ohos:margin="$float:dimens_10"
+                />
+        </DirectionalLayout>
+
+        <com.airbnb.lottie.LottieAnimationView
+            ohos:id="$+id:animationView_User"
+            ohos:above="$id:text_username"
+            ohos:width="match_parent"
+            ohos:height="$float:dimens_200"
+            ohos:horizontal_center="true"
+            />
+
+        <TextField
+            ohos:id="$+id:text_username"
+            ohos:height="$float:dimens_45"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_text_field1"
+            ohos:center_in_parent="true"
+            ohos:hint="$string:enter_userName"
+            ohos:hint_color="$color:black"
+            ohos:layout_alignment="center"
+            ohos:left_margin="$float:dimens_20"
+            ohos:multiple_lines="false"
+            ohos:padding="$float:dimens_10"
+            ohos:right_margin="$float:dimens_20"
+            ohos:text_alignment="left|center"
+            ohos:text_size="$float:dimens_15"
+            ohos:top_margin="$float:dimens_20"/>
+
+        <TextField
+            ohos:id="$+id:text_no_of_people"
+            ohos:height="$float:dimens_45"
+            ohos:width="match_parent"
+            ohos:background_element="$graphic:background_text_field1"
+            ohos:below="$id:text_username"
+            ohos:hint="$string:enter_people"
+            ohos:hint_color="$color:black"
+            ohos:layout_alignment="center"
+            ohos:left_margin="$float:dimens_20"
+            ohos:multiple_lines="false"
+            ohos:padding="$float:dimens_10"
+            ohos:right_margin="$float:dimens_20"
+            ohos:text_alignment="left|center"
+            ohos:text_cursor_visible="false"
+            ohos:text_input_type="pattern_number"
+            ohos:text_size="$float:dimens_15"
+            ohos:top_margin="$float:dimens_20"/>
+
+        <RoundProgressBar
+            ohos:id="$+id:round_progress_bar"
+            ohos:height="$float:dimens_40"
+            ohos:width="$float:dimens_40"
+            ohos:layout_alignment="center"
+            ohos:progress="20"
+            ohos:progress_color="$color:red"
+            ohos:progress_width="$float:dimens_5"
+            ohos:top_margin="$float:dimens_10"
+            ohos:visibility="hide"/>
+
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_bottom="true"
+            ohos:layout_alignment="center">
+
+            <com.andexert.library.RippleView
+                ohos:id="$+id:ripple_requestmenu"
+                ohos:height="$float:dimens_45"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:roundedcorner_btn"
+                ohos:rv_color="$color:grey"
+                >
+
+                <Button
+                    ohos:id="$+id:btn_requestmenu"
+                    ohos:height="$float:dimens_45"
+                    ohos:width="match_parent"
+                    ohos:background_element="$graphic:background_btn"
+                    ohos:text="$string:request_menu"
+                    ohos:text_alignment="center"
+                    ohos:text_color="$color:white"
+                    ohos:text_size="$float:dimens_15"
+                    ohos:text_weight="1000"/>
+            </com.andexert.library.RippleView>
+        </DependentLayout>
+    </DependentLayout>
+
+    <include
+        ohos:id="$+id:loading_img_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:layout="$layout:layout_progressbar"
+        ohos:center_in_parent="true"
+        ohos:visibility="hide"/>
+
+</DependentLayout>

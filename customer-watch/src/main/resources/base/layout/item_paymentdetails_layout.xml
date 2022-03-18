@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_content"
+    ohos:width="match_parent"
+    ohos:orientation="horizontal"
+    ohos:left_margin="$float:dimens_15"
+    ohos:right_margin="$float:dimens_15">
+        <Text
+            ohos:id="$+id:qty"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:margin="$float:dimens_8"
+            ohos:multiple_lines="true"
+            ohos:text="1"
+            ohos:align_parent_left="true"
+            ohos:vertical_center="true"
+            ohos:text_size="15fp"/>
+        <Text
+            ohos:id="$+id:food_item"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:margin="$float:dimens_8"
+            ohos:text="$string:food_items"
+            ohos:right_of="$id:qty"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"/>
+        <Text
+            ohos:id="$+id:amount"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:margin="$float:dimens_8"
+            ohos:text="55"
+            ohos:align_parent_right="true"
+            ohos:vertical_center="true"
+            ohos:text_alignment="center"
+            ohos:text_size="15fp"/>
+</DependentLayout>

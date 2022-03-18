@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:background_element="$color:btnBg"
+    >
+
+    <com.airbnb.lottie.LottieAnimationView
+        ohos:id="$+id:animationView_Splash"
+        ohos:width="200vp"
+        ohos:height="200vp"
+        ohos:horizontal_center="true"
+        ohos:above="$id:text_welcome"
+        />
+
+    <Text
+        ohos:id="$+id:text_welcome"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:center_in_parent="true"
+        ohos:multiple_lines="true"
+        ohos:text="$string:welcome"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:dimens_35fp"
+        ohos:top_margin="$float:dimens_30"
+        ohos:text_weight="1000"/>
+
+    <Text
+        ohos:id="$+id:text_heading"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:background_element="$graphic:background_btn"
+        ohos:bottom_padding="$float:dimens_5"
+        ohos:horizontal_center="true"
+        ohos:left_margin="$float:dimens_5"
+        ohos:left_padding="$float:dimens_5"
+        ohos:right_margin="$float:dimens_5"
+        ohos:right_padding="$float:dimens_5"
+        ohos:text="$string:food_menu"
+        ohos:text_alignment="center"
+        ohos:text_color="$color:white"
+        ohos:text_size="$float:dimens_20fp"
+        ohos:text_weight="1000"
+        ohos:top_margin="$float:dimens_10"
+        ohos:top_padding="$float:dimens_5"
+        ohos:visibility="hide"
+        />
+
+</DependentLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    >
+
+    <DependentLayout
+        ohos:id="$+id:dep_welcome"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:btnBg"
+        ohos:visibility="visible">
+
+        <Text
+            ohos:id="$+id:text_welcome"
+            ohos:height="match_content"
+            ohos:width="match_parent"
+            ohos:center_in_parent="true"
+            ohos:multiple_lines="true"
+            ohos:text="$string:welcome"
+            ohos:text_alignment="center"
+            ohos:text_color="$color:white"
+            ohos:text_size="$float:dimens_20"
+            ohos:text_weight="1000"/>
+
+        <com.andexert.library.RippleView
+            ohos:id="$+id:ripple_continue"
+            ohos:height="$float:dimens_40"
+            ohos:width="match_parent"
+            ohos:align_parent_bottom="true"
+            ohos:rv_color="$color:btnBg"
+            >
+
+            <Button
+                ohos:id="$+id:btn_continue"
+                ohos:height="$float:dimens_40"
+                ohos:width="match_parent"
+                ohos:background_element="$color:white"
+                ohos:text="$string:next"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:btnBg"
+                ohos:text_size="$float:dimens_15"
+                ohos:text_weight="1000"/>
+        </com.andexert.library.RippleView>
+
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:id="$+id:di_userdetails"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:background_element="$color:white"
+        ohos:orientation="vertical"
+        ohos:visibility="hide">
+
+        <DirectionalLayout
+            ohos:height="$float:dimens_45"
+            ohos:width="match_parent"
+            ohos:align_parent_top="true"
+            ohos:alignment="center"
+            ohos:background_element="$color:btnBg">
+
+            <Text
+                ohos:id="$+id:text_userdetails"
+                ohos:height="match_content"
+                ohos:width="match_parent"
+                ohos:horizontal_center="true"
+                ohos:layout_alignment="center"
+                ohos:text="$string:userdetails"
+                ohos:text_alignment="center"
+                ohos:text_color="$color:white"
+                ohos:text_size="$float:dimens_14"
+                ohos:text_weight="1000"
+                />
+        </DirectionalLayout>
+
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:center_in_parent="true"
+            ohos:orientation="vertical"
+            ohos:horizontal_center="true">
+            <TextField
+                ohos:id="$+id:text_username"
+                ohos:height="match_content"
+                ohos:width="$float:dimens_180"
+                ohos:background_element="$graphic:background_text_field1"
+                ohos:bottom_padding="$float:dimens_5"
+                ohos:hint="$string:username"
+                ohos:hint_color="$color:black"
+                ohos:layout_alignment="center"
+                ohos:left_padding="$float:dimens_5"
+                ohos:right_padding="$float:dimens_5"
+                ohos:text_alignment="center"
+                ohos:top_margin="$float:dimens_20"
+                ohos:top_padding="$float:dimens_5"
+                ohos:multiple_lines="false"/>
+
+            <TextField
+                ohos:id="$+id:text_no_of_people"
+                ohos:height="match_content"
+                ohos:width="$float:dimens_180"
+                ohos:background_element="$graphic:background_text_field1"
+                ohos:bottom_padding="$float:dimens_5"
+                ohos:hint="$string:noofpeople"
+                ohos:hint_color="$color:black"
+                ohos:layout_alignment="center"
+                ohos:left_padding="$float:dimens_5"
+                ohos:right_padding="$float:dimens_5"
+                ohos:text_alignment="center"
+                ohos:top_margin="$float:dimens_10"
+                ohos:top_padding="$float:dimens_5"
+                ohos:text_input_type="pattern_number"
+                ohos:text_cursor_visible="false"
+                ohos:multiple_lines="false"/>
+        </DirectionalLayout>
+
+        <RoundProgressBar
+            ohos:id="$+id:round_progress_bar"
+            ohos:height="$float:dimens_40"
+            ohos:width="$float:dimens_40"
+            ohos:layout_alignment="center"
+            ohos:progress="20"
+            ohos:progress_color="$color:red"
+            ohos:progress_width="$float:dimens_5"
+            ohos:top_margin="$float:dimens_10"
+            ohos:visibility="hide"/>
+
+        <DependentLayout
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:align_parent_bottom="true"
+            ohos:layout_alignment="center">
+
+            <com.andexert.library.RippleView
+                ohos:id="$+id:ripple_requestmenu"
+                ohos:height="$float:dimens_45"
+                ohos:width="match_parent"
+                ohos:background_element="$graphic:roundedcorner_btn"
+                ohos:rv_color="$color:grey"
+                >
+
+                <Button
+                    ohos:id="$+id:btn_requestmenu"
+                    ohos:height="$float:dimens_45"
+                    ohos:width="match_parent"
+                    ohos:background_element="$graphic:background_btn"
+                    ohos:text="$string:request_menu"
+                    ohos:text_alignment="center"
+                    ohos:text_color="$color:white"
+                    ohos:text_size="$float:dimens_14"
+                    ohos:text_weight="1000"/>
+            </com.andexert.library.RippleView>
+        </DependentLayout>
+    </DependentLayout>
+
+    <include
+        ohos:id="$+id:loading_img_content"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:layout="$layout:layout_progressbar"
+        ohos:center_in_parent="true"
+        ohos:visibility="hide"/>
+
+</DependentLayout>

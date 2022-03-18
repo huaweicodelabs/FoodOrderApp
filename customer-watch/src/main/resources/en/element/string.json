@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "customer_MainAbility",
+      "value": "Customer App"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "UserDetails",
+      "value": "User Details"
+    },
+    {
+      "name": "FoodMenus",
+      "value": "Food Menu"
+    },
+    {
+      "name": "OrderNow",
+      "value": "Order Now"
+    }
+  ]
+}

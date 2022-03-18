@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+
+    <DependentLayout
+        ohos:id="$+id:header_layout"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal">
+
+        <Text
+            ohos:id="$+id:text_heading"
+            ohos:height="$float:dimens_50"
+            ohos:width="match_parent"
+            ohos:text="$string:food_menu"
+            ohos:background_element="$graphic:background_btn"
+            ohos:text_color="$color:white"
+            ohos:text_size="$float:dimens_15fp"
+            ohos:text_weight="1000"
+            ohos:text_alignment="center"
+            ohos:horizontal_center="true"
+            ohos:left_padding="$float:dimens_5"
+            ohos:right_padding="$float:dimens_5"
+            ohos:top_padding="$float:dimens_5"
+            />
+        <Text
+            ohos:id="$+id:cancel"
+            ohos:height="$float:dimens_50"
+            ohos:width="$float:dimens_60"
+            ohos:text="$string:cancel"
+            ohos:background_element="$graphic:background_btn"
+            ohos:text_color="$color:white"
+            ohos:text_size="$float:dimens_15fp"
+            ohos:text_weight="1000"
+            ohos:text_alignment="center"
+            ohos:horizontal_center="true"
+            ohos:left_padding="$float:dimens_5"
+            ohos:right_padding="$float:dimens_5"
+            ohos:top_padding="$float:dimens_5"
+            ohos:align_parent_right="true"/>
+    </DependentLayout>
+
+    <DependentLayout
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:alignment="center"
+        ohos:below="$id:header_layout"
+        ohos:above="$id:ripple_order"
+        ohos:top_margin="$float:dimens_10"
+        ohos:bottom_margin="$float:dimens_10">
+
+        <ListContainer
+            ohos:id="$+id:list_container"
+            ohos:height="match_parent"
+            ohos:width="match_parent"
+            ohos:layout_alignment="horizontal_center"
+            />
+    </DependentLayout>
+    <com.andexert.library.RippleView
+        ohos:id="$+id:ripple_order"
+        ohos:height="$float:dimens_50"
+        ohos:width="match_parent"
+        ohos:background_element="$color:btnBg"
+        ohos:rv_color="$color:grey"
+        ohos:align_parent_bottom="true"
+        ohos:horizontal_center="true"
+        >
+        <Button
+            ohos:id="$+id:btn_Order_now"
+            ohos:height="$float:dimens_50"
+            ohos:width="match_parent"
+            ohos:text="$string:order_now"
+            ohos:background_element="$graphic:background_btn"
+            ohos:text_color="$color:white"
+            ohos:text_size="$float:dimens_15fp"
+            ohos:text_weight="1000"
+            ohos:text_alignment="center"
+            ohos:left_padding="$float:dimens_5"
+            ohos:right_padding="$float:dimens_5"
+            ohos:top_padding="$float:dimens_5"
+            />
+
+    </com.andexert.library.RippleView>
+</DependentLayout>

@@ -1,0 +1,285 @@
+{
+  "string": [
+    {
+      "name": "shopkeeper_MainAbility",
+      "value": "Shop Keeper App"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "audioplayerserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "food_menu",
+      "value": "Enquiry Food Menu"
+    },
+    {
+      "name": "food_menu_single",
+      "value": "Food Menu"
+    },
+    {
+      "name": "table_data",
+      "value": "Table 1 Vikram Requested Food menu for order for 5 People"
+    },
+    {
+      "name": "accept",
+      "value": "Accept"
+    },
+    {
+      "name": "accept_order",
+      "value": "Accept Order"
+    },
+    {
+      "name": "delivery_details",
+      "value": "Delivery Details"
+    },
+    {
+      "name": "ready_deliver",
+      "value": "Ready To Deliver"
+    },
+    {
+      "name": "welcome",
+      "value": "Welcome to ABC Restaurant"
+    },
+    {
+      "name": "selected_foods",
+      "value": "View Selected Foods"
+    },
+    {
+      "name": "shopKeeper_app",
+      "value": "ShopKeeper App"
+    },
+    {
+      "name": "paired_devices",
+      "value": "Paired Devices"
+    },
+    {
+      "name": "payment_details",
+      "value": "Payment Details"
+    },
+    {
+      "name": "inr_500",
+      "value": "₹ 500"
+    },
+    {
+      "name": "payment_received",
+      "value": "Payment Received"
+    },
+    {
+      "name": "connect_table",
+      "value": "Connect to this table"
+    },
+    {
+      "name": "non_vegMenu",
+      "value": "NonVeg Menu"
+    },
+    {
+      "name": "close_app",
+      "value": "Close app"
+    },
+    {
+      "name": "order_receive",
+      "value": "Order Received"
+    },
+    {
+      "name": "order_now",
+      "value": "Order Now"
+    },
+    {
+      "name": "food_items",
+      "value": "Your Food Items"
+    },{
+      "name": "selected_food",
+      "value": "Selected Food Items"
+    },{
+      "name": "item_one",
+      "value": "item1"
+    },{
+      "name": "rupee_200",
+      "value": "₹200"
+    },{
+      "name": "add",
+      "value": "Add"
+    },
+    {
+      "name": "minus",
+      "value": "-"
+    },{
+      "name": "zero",
+      "value": "0"
+    },
+    {
+      "name": "plus",
+      "value": "+"
+    },
+    {
+      "name": "custom_toast",
+      "value": "This is a ToastDialog for the customized component"
+    },
+    {
+      "name": "payment_received_table",
+      "value": "Payment Received from Table 1"
+    },
+    {
+      "name": "view_ordered_items",
+      "value": "View Ordered Items"
+    },
+    {
+      "name": "tax",
+      "value": "Tax"
+    },
+    {
+      "name": "gst",
+      "value": "GST"
+    },
+    {
+      "name": "delivery_charges",
+      "value": "Delivery Charges"
+    },{
+      "name": "total",
+      "value": "Total"
+    },
+    {
+      "name": "pending",
+      "value": "PENDING - "
+    },
+    {
+      "name": "waiting",
+      "value": "WAITING - "
+    },
+    {
+      "name": "delivered",
+      "value": "DELIVERED - "
+    },
+    {
+      "name": "table",
+      "value": "Table 1"
+    },
+    {
+      "name": "username",
+      "value": "Username"
+    },
+    {
+      "name": "status",
+      "value": "Status"
+    },
+    {
+      "name": "customer_MainAbility",
+      "value": "Customer App"
+    },
+    {
+      "name": "view_selected_food",
+      "value": "View Selected Foods"
+    },
+    {
+      "name": "enter_userName",
+      "value": "Please enter your name"
+    },
+    {
+      "name": "enter_people",
+      "value": "Please enter no.of people"
+    },
+    {
+      "name": "request_menu",
+      "value": "REQUEST MENU"
+    },
+    {
+      "name": "food_delivered",
+      "value": "Your food is delivered \n Please Pay"
+    },
+    {
+      "name": "pay",
+      "value": "Pay"
+    },
+    {
+      "name": "shopkeeper_app",
+      "value": "ShopKeeper App"
+    },
+    {
+      "name": "paired_dev",
+      "value": "Paired Devices"
+    },{
+      "name": "online_device",
+      "value": "Online Devices"
+    },
+    {
+      "name": "payment",
+      "value": "Payment"
+    },
+    {
+      "name": "payment_successful",
+      "value": "Payment is Successful"
+    },
+    {
+      "name": "thanks_visit",
+      "value": "Thanks for visiting Restaurant"
+    },
+    {
+      "name": "exit",
+      "value": "Exit"
+    },
+    {
+      "name": "veg_menu",
+      "value": "Veg Menu"
+    },
+    {
+      "name": "confirm",
+      "value": "CONFIRM"
+    },
+    {
+      "name": "order_confirm",
+      "value": "Order Confirmation"
+
+    },
+    {
+      "name": "waiting_time",
+      "value": "Your Order Has been Accepted. pls wait for 20 min"
+    },{
+      "name": "rupee_twoHundred",
+      "value": "₹200"
+    },
+    {
+      "name": "continue",
+      "value": "CONTINUE"
+    },
+    {
+      "name": "progress_text",
+      "value": "Progress text"
+    },
+    {
+      "name": "taxpercentage",
+      "value": "8%"
+    },
+    {
+      "name": "taxvalue",
+      "value": "Rs 55"
+    },
+    {
+      "name": "gstpercentage",
+      "value": "4%"
+    },
+    {
+      "name": "gstvalue",
+      "value": "Rs 55"
+    },
+    {
+      "name": "deliverycharge",
+      "value": "Rs 55"
+    },
+    {
+      "name": "totalvalue",
+      "value": "Rs 55"
+    },
+    {
+      "name": "bill_details",
+      "value": "Bill Details"
+    }
+  ]
+}

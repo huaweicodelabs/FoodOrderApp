@@ -1,0 +1,173 @@
+{
+  "float": [
+    {
+      "name": "dimens_5",
+      "value": "5vp"
+    },
+    {
+      "name": "dimens_10",
+      "value": "10vp"
+    },{
+      "name": "dimens_14",
+      "value": "15vp"
+    },
+    {
+      "name": "dimens_15",
+      "value": "15vp"
+    },
+    {
+      "name": "dimens_22",
+      "value": "22vp"
+    },
+    {
+      "name": "dimens_53",
+      "value": "53vp"
+    },
+    {
+      "name": "dimens_20",
+      "value": "20vp"
+    },
+    {
+      "name": "dimens_35",
+      "value": "25vp"
+    },
+    {
+      "name": "dimens_30",
+      "value": "30vp"
+    },{
+      "name": "dimens_2",
+      "value": "2vp"
+    },
+    {
+      "name": "dimens_3",
+      "value": "3vp"
+    },
+    {
+      "name": "dimens_8",
+      "value": "8vp"
+    },
+
+
+    {
+      "name": "dimens_25",
+      "value": "25vp"
+    },
+
+
+    {
+      "name": "dimens_100",
+      "value": "100vp"
+    },
+    {
+      "name": "dimens_1000",
+      "value": "1000"
+    },
+    {
+      "name": "dimens_40",
+      "value": "40vp"
+    },
+    {
+      "name": "dimens_45",
+      "value": "45vp"
+    },
+    {
+      "name": "dimens_50",
+      "value": "50vp"
+    },
+    {
+      "name": "dimens_150",
+      "value": "150vp"
+    },
+    {
+      "name": "dimens_35fp",
+      "value": "35fp"
+    },
+    {
+      "name": "dimens_20fp",
+      "value": "20fp"
+    },
+    {
+      "name": "dimens_25fp",
+      "value": "25fp"
+    },
+    {
+      "name": "dimens_15fp",
+      "value": "15fp"
+    },
+
+    {
+      "name": "dimens_12fp",
+      "value": "12fp"
+    },
+    {
+      "name": "dimens_10fp",
+      "value": "10fp"
+    },
+    {
+      "name": "dimens_16fp",
+      "value": "16fp"
+    },
+    {
+      "name": "dimens_18fp",
+      "value": "18fp"
+    },
+    {
+      "name": "dimens_22fp",
+      "value": "22fp"
+    },
+    {
+      "name": "dimens_24fp",
+      "value": "24fp"
+    },
+    {
+      "name": "dimens_30fp",
+      "value": "30fp"
+    },
+    {
+      "name": "dimens_800",
+      "value": "800"
+    },
+    {
+      "name": "dimens_200",
+      "value": "200vp"
+    },
+    {
+      "name": "dimens_160",
+      "value": "160vp"
+    },
+    {
+      "name": "dimens_180",
+      "value": "180vp"
+    },
+    {
+      "name": "dimens_75",
+      "value": "75vp"
+    },
+    {
+      "name": "dimens_70",
+      "value": "70vp"
+    },
+    {
+      "name": "dimens_60",
+      "value": "60vp"
+    },
+    {
+      "name": "dimens_80",
+      "value": "80vp"
+    },{
+      "name": "dimens_85",
+      "value": "85vp"
+    },
+    {
+      "name": "dimens_90",
+      "value": "90vp"
+    },{
+      "name": "dimens_100px",
+      "value": "100px"
+    },
+    {
+      "name": "dimens_200px",
+      "value": "200px"
+    }
+  ]
+}
